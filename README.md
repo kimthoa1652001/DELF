@@ -5,9 +5,8 @@ Source: https://andrefaraujo.github.io/files/posters/2017-10-22-iccv-delf-poster
   For this project, we embarked on the work of cloning an available dataset named “ The Oxford Building Dataset”. This dataset consists of 5062 images collected from Flickr by searching for particular Oxford landmarks. The collection has been manually annotated to generate a comprehensive ground truth for 11 landmarks, each represented by 5 possible queries. This gives a set of 55 queries over which an object retrieval system can be evaluated. The Oxford Buildings dataset was created to benchmark object retrieval. While the images are of buildings, many incidental people appear in the images.
   
 ## Methodology
-  The DEep Local Feature module to tackle this problem that can be used for image retrievals. This is the research from the paper Large-Scale Image Retrieval with Attentive Deep Local Features . Each noteworthy point in the image is described using a 40-dimensional vector (known as a feature vector). This framework can be used for image retrieval as a drop-in replacement for other keypoint detectors and descriptors, enabling more accurate feature matching and geometric verification. DELF was trained with Google-Landmarks dataset which contains 1,060,709 images from 12,894 landmarks and 111,036 additional query images optimized for landmark recognition. It's said that DELF outperforms the state-of-the-art global and local descriptors in the large-scale setting by significant margins.<img width="597" alt="Screen Shot 2023-04-15 at 2 02 28 PM" src="https://user-images.githubusercontent.com/80747458/232194067-021ca535-1a13-40da-84af-a65274ed5024.png">
+  The DEep Local Feature module to tackle this problem that can be used for image retrievals. This is the research from the paper Large-Scale Image Retrieval with Attentive Deep Local Features . Each noteworthy point in the image is described using a 40-dimensional vector (known as a feature vector). This framework can be used for image retrieval as a drop-in replacement for other keypoint detectors and descriptors, enabling more accurate feature matching and geometric verification. DELF was trained with Google-Landmarks dataset which contains 1,060,709 images from 12,894 landmarks and 111,036 additional query images optimized for landmark recognition. It's said that DELF outperforms the state-of-the-art global and local descriptors in the large-scale setting by significant margins
 
-    
 
 <img width="631" alt="Screen Shot 2023-04-15 at 1 54 36 PM" src="https://user-images.githubusercontent.com/80747458/232193731-34deeb0e-2ef8-4b56-8eb5-85ce6662eb3b.png">
 
@@ -17,5 +16,6 @@ Source: https://andrefaraujo.github.io/files/posters/2017-10-22-iccv-delf-poster
 ## Experiment
 <img width="547" alt="Screen Shot 2023-04-15 at 1 56 23 PM" src="https://user-images.githubusercontent.com/80747458/232193825-91891f07-a836-46bf-b50c-fd68ff6a1c5a.png">
 ## Demo<img width="598" alt="Screen Shot 2023-04-15 at 2 03 26 PM" src="https://user-images.githubusercontent.com/80747458/232194116-507e3844-edc8-419e-9e88-dd9d6c3e49ef.png">
+
 <img width="569" alt="Screen Shot 2023-04-15 at 2 03 50 PM" src="https://user-images.githubusercontent.com/80747458/232194135-6f6352f3-1af3-46dc-80d7-0287929a9b00.png">
 
